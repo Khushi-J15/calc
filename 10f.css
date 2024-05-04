@@ -43,26 +43,20 @@ h1{
   font-size: 300%;
 }
 
-@media only screen and (max-width: 600px){
-  button{
-    height: 70px;
-    width: 70px;
-    border-radius: 35px;
+@media only screen and (max-width: 400px){
+  body{
+    height: 500px;
+    width: 500px;
+    margin-left: 0px;
   }
   .bigbox{
     display: inline-block;
     margin-top: 50px;
     margin-bottom: 0px;
+    margin-left: 20px;
     margin-right: 40px;
-    padding-right: 30px;
-    overflow: hidden;
-    padding: 40px;
   }
   h1{
-    /* white-space: nowrap; */
     font-size: 35px;
-  }
-  #title{
-    margin-left: 0px;
   }
 }
